@@ -1,0 +1,44 @@
+/* style={{ overflowX: "auto", height: "calc(100vh - 185px)" }} */
+.analytics  .contents {
+    overflow-x: auto;
+    height: calc(100vh - 185px)
+}
+.analytics .contents .user-circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.analytics .contents .userName {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+}
+.analytics .contents .email {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.analytics .contents .admin-dot {
+    height: 6px;
+    width: 6px;
+    background-color: rgb(87, 181, 92);
+    border-radius: 50px;
+    box-shadow:  rgba(87, 181, 92, 0.7) 0px 0px 5px 1px;
+    border: 0.5px solid #fff;
+}
+
+.analytics .contents .non-admin-dot {
+    height: 6px;
+    width: 6px;
+    background-color: rgb(181, 87, 87);
+    border-radius: 50px;
+    box-shadow:  rgba(181, 87, 87, 0.7) 0px 0px 5px 1px;
+    border: 0.5px solid #fff;
+}

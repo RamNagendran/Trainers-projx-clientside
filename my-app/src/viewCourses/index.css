@@ -1,0 +1,56 @@
+.course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.course .course-float .ant-float-btn-content {
+    width: 50px;
+    min-height: 50px;
+}
+
+.course .course-float .ant-float-btn-icon {
+    width: 35px !important;
+}
+
+.course .course-float .anticon svg {
+    height: 50px;
+    width: 35px;
+}
+
+.course .courseContent .courseCard {
+    height: 200px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid lightgrey;
+}
+
+.course .courseContent .courseCard .dots {
+    width: 15px;
+    height: 15px;
+    background-color: #fa2a00;
+    border-radius: 25px;
+    border: 1px solid #fa2a00;
+}
+
+.course .courseContent .courseCard .nameStyle {
+    width: 95%;     
+    font-weight: 600;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+}
+
+.course .courseContent .courseCard .editDelBtn {
+    width: 70px;
+    color: #fff;
+    height: 25px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    background-color: rgb(0, 91, 197);
+}
